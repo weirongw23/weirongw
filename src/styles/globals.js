@@ -4,16 +4,35 @@ import { normalize } from "styled-normalize";
 const GlobalStyles = createGlobalStyle`
   ${normalize};
 
+  .fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+  }
+
+  @keyframes fadeInOpacity {
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+
   * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
+
   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
 
   }
+
   body {
     font-family: ${(props) => props.theme.fonts.main};
     font-size: 1.6rem;
@@ -22,18 +41,22 @@ const GlobalStyles = createGlobalStyle`
     cursor: default;
 
   }
+
   h1,h2,h3,h4,h5,h6,button {
     font-family: ${(props) => props.theme.fonts.title};
     &:hover {
         cursor: text;
     }
   }
+
   a {
     text-decoration: none;
   }
+
   li{
     list-style: none;
   }
+
   p:hover {
       cursor: text;
   }
