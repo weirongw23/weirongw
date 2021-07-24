@@ -2,7 +2,8 @@ export const projects = [
 	{
 		title: "MERN Memories",
 		description:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non. Tellus cras adipiscing enim eu turpis egestas pretium aenean. ",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non. Tellus cras adipiscing enim eu turpis egestas pretium aenean.",
+		languages: "Mongo, Express, React, Node",
 		image: "/images/1.png",
 		tags: ["Mongo", "Express", "React", "Node"],
 		source: "https://google.com",
@@ -13,6 +14,7 @@ export const projects = [
 		title: "E-Commerce",
 		description:
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non. Tellus cras adipiscing enim eu turpis egestas pretium aenean. ",
+		languages: "React, JavaScript",
 		image: "/images/2.png",
 		tags: ["React", "JavaScript"],
 		source: "https://google.com",
@@ -23,6 +25,7 @@ export const projects = [
 		title: "WebRTC App",
 		description:
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non. Tellus cras adipiscing enim eu turpis egestas pretium aenean. ",
+		languages: "React, WebRTC",
 		image: "/images/3.jpg",
 		tags: ["React", "WebRTC"],
 		source: "https://google.com",
@@ -33,6 +36,7 @@ export const projects = [
 		title: "Unichat",
 		description:
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor eget dolor morbi non. Tellus cras adipiscing enim eu turpis egestas pretium aenean. ",
+		languages: "React, ChatEngine, Firebase",
 		image: "/images/4.jpg",
 		tags: ["React", "ChatEngine", "Firebase"],
 		source: "https://google.com",

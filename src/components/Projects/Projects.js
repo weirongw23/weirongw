@@ -3,6 +3,7 @@ import React from "react";
 import {
 	BlogCard,
 	CardInfo,
+	CardInfoLang,
 	ExternalLinks,
 	GridContainer,
 	HeaderThree,
@@ -16,6 +17,7 @@ import {
 import {
 	Section,
 	SectionDivider,
+	SectionText,
 	SectionTitle,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
@@ -29,10 +31,22 @@ import { projects } from "../../constants/constants";
 const Projects = () => (
 	<Section id="projects">
 		<SectionDivider />
-		<SectionTitle main>Projects</SectionTitle>
+		<SectionTitle main>Featured Projects</SectionTitle>
+		<SectionText>
+			I ship real-world products to users that have an impact.
+		</SectionText>
 		<GridContainer>
 			{projects.map(
-				({ id, image, title, description, tags, source, visit }) => (
+				({
+					id,
+					image,
+					title,
+					description,
+					tags,
+					source,
+					visit,
+					languages,
+				}) => (
 					<BlogCard key={id}>
 						<Img src={image} />
 						<TitleContent>
@@ -40,13 +54,15 @@ const Projects = () => (
 							<Hr />
 						</TitleContent>
 						<CardInfo>{description}</CardInfo>
-						<div>
+						<br />
+						<CardInfoLang>{languages}</CardInfoLang>
+						{/* <div>
 							<TagList>
 								{tags.map((tag, i) => (
 									<Tag key={i}>{tag}</Tag>
 								))}
 							</TagList>
-						</div>
+						</div> */}
 						<UtilityList>
 							<ExternalLinks href={visit}>Code</ExternalLinks>
 							<ExternalLinks href={source}>Preview</ExternalLinks>
