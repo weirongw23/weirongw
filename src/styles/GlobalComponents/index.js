@@ -231,10 +231,11 @@ export const ButtonFront = styled.button`
 		disabled
 			? "inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3)"
 			: "none"};
-
+	transition: all 0.3 ease-in-out;
 	&:hover {
-		opacity: 0;
+		opacity: 1;
 		cursor: pointer;
+		transform: scale(1.1);
 	}
 	&:focus {
 		outline: none;
