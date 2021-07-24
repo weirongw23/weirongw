@@ -17,7 +17,8 @@ import {
 const Technologies = () => (
 	<Section id="technologies">
 		<SectionDivider />
-		<SectionTitle main>Technologies</SectionTitle>
+		<br />
+		<SectionTitle>Technologies</SectionTitle>
 		<SectionText>Code. Design. Create.</SectionText>
 		<List>
 			<ListItem>

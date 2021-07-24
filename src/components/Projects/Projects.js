@@ -23,15 +23,15 @@ import {
 import { projects } from "../../constants/constants";
 
 // Tip: separate logic from content
+// Tip: put images in public/images
 // TODO: Put your own projects/title/description in constants.js
 // Change title, description, image, tags, source, visit
-
-// Tip: put images in public/images
 
 const Projects = () => (
 	<Section id="projects">
 		<SectionDivider />
-		<SectionTitle main>Featured Projects</SectionTitle>
+		<br />
+		<SectionTitle>Featured Projects</SectionTitle>
 		<SectionText>
 			I ship real-world products to users that have an impact.
 		</SectionText>
@@ -64,8 +64,12 @@ const Projects = () => (
 							</TagList>
 						</div> */}
 						<UtilityList>
-							<ExternalLinks href={visit}>Code</ExternalLinks>
-							<ExternalLinks href={source}>Preview</ExternalLinks>
+							<ExternalLinks href={visit}>
+								Code &#62;
+							</ExternalLinks>
+							<ExternalLinks href={source}>
+								Preview &#62;
+							</ExternalLinks>
 						</UtilityList>
 					</BlogCard>
 				)

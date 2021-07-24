@@ -21,9 +21,9 @@ const Hero = (props) => (
 			</SectionTitle>
 			<SectionText>
 				I'm a third-year Computer Science, Data Science, and Business
-				student at University of Michigan. My passions lie in
-				high-quality software engineering, data visualizations, and
-				machine learning.
+				Student at University of Michigan - Ann Arbor. My passions lie
+				in high-quality scalable software engineering, data
+				visualizations, and machine learning.
 			</SectionText>
 
 			<Button

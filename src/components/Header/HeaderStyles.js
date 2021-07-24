@@ -20,11 +20,16 @@ export const Container = styled.div`
 
 export const SiteName = styled.p`
 	font-size: 3rem;
-	font-family: Space Grotesk;
+	font-weight: 800;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif,
+		Space Grotesk;
 	background: -webkit-linear-gradient(#3182ce, #63b3ed);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	transition: all 0.2s ease-in-out;
 	&:hover {
+		transform: scale(1.1);
 		background-color: #2a2a72;
 		background-image: linear-gradient(315deg, #3182ce 0%, #63b3ed 74%);
 		cursor: pointer;

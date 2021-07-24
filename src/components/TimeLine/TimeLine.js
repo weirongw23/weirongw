@@ -60,7 +60,8 @@ const Timeline = () => {
 	return (
 		<Section id="resume">
 			<SectionDivider />
-			<SectionTitle main>Resume</SectionTitle>
+			<br />
+			<SectionTitle>Resume</SectionTitle>
 			<SectionText>Click here for a PDF version.</SectionText>
 			<CarouselContainer ref={carouselRef}></CarouselContainer>
 		</Section>

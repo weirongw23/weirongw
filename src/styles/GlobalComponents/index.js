@@ -26,18 +26,22 @@ export const Section = styled.section`
 
 export const SectionTitle = styled.h2`
 	font-weight: 800;
-	font-size: ${(props) => (props.main ? "65px" : "56px")};
+	font-family: Space Grotesk;
+	font-size: ${(props) => (props.main ? "65px" : "40px")};
 	line-height: ${(props) => (props.main ? "72px" : "56px")};
 	width: max-content;
 	max-width: 100%;
-	background: linear-gradient(#43cea2, #185a9d);
+	background: ${(props) =>
+		props.main
+			? "#ffffff"
+			: "linear-gradient(132.6deg, rgba(71, 139, 214, 1) 23.3%, rgba(37, 216, 211, 1) 84.7%)"};
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	margin-bottom: 16px;
 	padding: ${(props) => (props.main ? "58px 0 16px" : "0")};
 
 	@media ${(props) => props.theme.breakpoints.md} {
-		font-size: ${(props) => (props.main ? "56px" : "48px")};
+		font-size: ${(props) => (props.main ? "66px" : "48px")};
 		line-height: ${(props) => (props.main ? "56px" : "48px")};
 		margin-bottom: 12px;
 		padding: ${(props) => (props.main ? "40px 0 12px" : "0")};
