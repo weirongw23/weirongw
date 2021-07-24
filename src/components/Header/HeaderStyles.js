@@ -18,11 +18,16 @@ export const Container = styled.div`
 	}
 `;
 
-export const Span = styled.span`
+export const SiteName = styled.p`
 	font-size: 3rem;
+	font-family: Space Grotesk;
+	background: -webkit-linear-gradient(#3182ce, #63b3ed);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	&:hover {
-		font-weight: 500;
-		color: rgb(255, 20, 147);
+		background-color: #2a2a72;
+		background-image: linear-gradient(315deg, #3182ce 0%, #63b3ed 74%);
+		cursor: pointer;
 	}
 `;
 

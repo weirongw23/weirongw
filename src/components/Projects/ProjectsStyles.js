@@ -24,7 +24,7 @@ export const GridContainer = styled.section`
 `;
 export const BlogCard = styled.div`
 	border-radius: 10px;
-	box-shadow: 3px 3px 10px rgba(47, 181, 252, 0.25);
+	box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.3);
 	text-align: center;
 	width: 400px;
 	transition: all 0.2s ease-in-out;

@@ -13,6 +13,7 @@ import {
 	NavProductsIcon,
 	SocialIcons,
 	Span,
+	SiteName,
 } from "./HeaderStyles";
 
 const Header = () => (
@@ -26,7 +27,7 @@ const Header = () => (
 						color: "white",
 					}}
 				>
-					<Span>Peter Wu</Span>
+					<SiteName>weirongw.dev</SiteName>
 				</a>
 			</Link>
 		</Div1>
@@ -37,13 +38,13 @@ const Header = () => (
 				</Link>
 			</li>
 			<li>
-				<Link href="#technologies">
-					<NavLink>Technologies</NavLink>
+				<Link href="#resume">
+					<NavLink>Resume</NavLink>
 				</Link>
 			</li>
 			<li>
-				<Link href="#resume">
-					<NavLink>Resume</NavLink>
+				<Link href="#technologies">
+					<NavLink>Technologies</NavLink>
 				</Link>
 			</li>
 			{/* <NavProductsIcon /> */}
