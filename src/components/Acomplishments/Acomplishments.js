@@ -10,7 +10,7 @@ import {
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
-	{ number: 800, text: "YouTube Watch Time (in hrs)" },
+	{ number: 800, text: "My Channel's YouTube Watch Time (in hrs)" },
 	{ number: 30, text: "Projects Completed" },
 	{ number: 10, text: "Languages Learned" },
 	{ number: 150, text: "Students Taught" },

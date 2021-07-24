@@ -8,8 +8,6 @@ import {
 	GridContainer,
 	HeaderThree,
 	Hr,
-	Tag,
-	TagList,
 	TitleContent,
 	UtilityList,
 	Img,
