@@ -1,5 +1,5 @@
 import React from "react";
-import { DiSwift, DiFirebase, DiReact } from "react-icons/di";
+import { DiFirebase, DiReact, DiAws } from "react-icons/di";
 import {
 	Section,
 	SectionDivider,
@@ -24,27 +24,33 @@ const Technologies = () => (
 			<ListItem>
 				<DiReact size="6rem" />
 				<ListContainer>
-					<ListTitle>Algorithms and Web</ListTitle>
+					<ListTitle>
+						Algorithms, Web &#38; Mobile Development
+					</ListTitle>
 					<ListParagraph>
 						C, C++, Python, HTML, CSS, React, JavaScript, SQL,
-						Django
+						Django, React Native, SwiftUI, Kotlin
 					</ListParagraph>
 				</ListContainer>
 			</ListItem>
 			<ListItem>
 				<DiFirebase size="6rem" />
 				<ListContainer>
-					<ListTitle>ML, Data, Design</ListTitle>
+					<ListTitle>ML, Statistics, Data, Design</ListTitle>
 					<ListParagraph>
-						PyTorch, OpenCV, Scikit-Learn, Numpy, Pandas, D3, Figma
+						PyTorch, OpenCV, Scikit-Learn, Numpy, Pandas, Tesseract,
+						R, D3, Figma
 					</ListParagraph>
 				</ListContainer>
 			</ListItem>
 			<ListItem>
-				<DiSwift size="6rem" />
+				<DiAws size="6rem" />
 				<ListContainer>
-					<ListTitle>Mobile</ListTitle>
-					<ListParagraph>SwiftUI, Kotlin</ListParagraph>
+					<ListTitle>Development Tools</ListTitle>
+					<ListParagraph>
+						Bash, Git, Jira, Notion, VSCode, XCode, PyCharm, AWS,
+						Firebase
+					</ListParagraph>
 				</ListContainer>
 			</ListItem>
 		</List>

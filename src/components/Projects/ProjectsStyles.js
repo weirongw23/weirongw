@@ -31,7 +31,7 @@ export const BlogCard = styled.div`
 	opacity: 0.8;
 	&:hover {
 		transform: scale(1.05);
-		cursor: pointer
+		cursor: pointer;
 		box-shadow: 3px 3px 20px rgba(47, 181, 252, 1);
 		opacity: 1;
 	}
