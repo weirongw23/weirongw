@@ -53,17 +53,6 @@ const Header = () => (
 				</Link>
 			</li> */}
 		</Div2>
-		{/* <Div3>
-			<SocialIcons href="https://github.com/weirongw23">
-				<AiFillGithub size="3rem" />
-			</SocialIcons>
-			<SocialIcons href="https://www.linkedin.com/in/weirongw/">
-				<AiFillLinkedin size="3rem" />
-			</SocialIcons>
-			<SocialIcons href="https://www.instagram.com/weirongw/">
-				<AiFillInstagram size="3rem" />
-			</SocialIcons>
-		</Div3> */}
 	</Container>
 );
 

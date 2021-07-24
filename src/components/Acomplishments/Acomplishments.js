@@ -1,19 +1,35 @@
-import React from 'react';
+import React from "react";
+import CountUp from "react-countup";
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import {
+	Section,
+	SectionText,
+	SectionDivider,
+	SectionTitle,
+} from "../../styles/GlobalComponents";
+import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+	{ number: 800, text: "YouTube Watch Time (in hrs)" },
+	{ number: 30, text: "Projects Completed" },
+	{ number: 10, text: "Languages Learned" },
+	{ number: 150, text: "Students Taught" },
 ];
 
 const Acomplishments = () => (
-  <div>
-    Acomplishments
-  </div>
+	<Section>
+		<SectionText>By the Numbers.</SectionText>
+		<Boxes>
+			{data.map((card, index) => (
+				<Box key={index}>
+					<BoxNum>
+						<CountUp end={card.number} duration={3} redraw={true} />
+					</BoxNum>
+					<BoxText>{card.text}</BoxText>
+				</Box>
+			))}
+		</Boxes>
+	</Section>
 );
 
 export default Acomplishments;
