@@ -1,7 +1,7 @@
 import { IoIosArrowDropdown } from "react-icons/io";
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.nav`
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: 1fr;
@@ -51,6 +51,7 @@ export const Div2 = styled.div`
 	grid-area: 1 / 4 / 3 / 6;
 	display: flex;
 	justify-content: space-around;
+	width: 30%auto;
 	align-items: center;
 	@media ${(props) => props.theme.breakpoints.sm} {
 		align-items: center;

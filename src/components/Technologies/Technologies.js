@@ -1,5 +1,5 @@
 import React from "react";
-import { DiApple, DiSwift, DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiSwift, DiFirebase, DiReact } from "react-icons/di";
 import {
 	Section,
 	SectionDivider,
