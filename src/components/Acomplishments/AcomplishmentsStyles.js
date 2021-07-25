@@ -27,6 +27,13 @@ export const Box = styled.div`
 	border-radius: 12px;
 	height: 144px;
 	padding: 24px;
+	transition: all 0.3s ease-in-out;
+	&:hover {
+		cursor: pointer;
+		box-shadow: 3px 3px 20px rgba(47, 181, 252, 1);
+		transform: scale(1.05);
+	}
+
 	@media ${(props) => props.theme.breakpoints.lg} {
 		height: 210px;
 	}
@@ -45,21 +52,29 @@ export const Box = styled.div`
 		}
 	}
 `;
+
 export const BoxNum = styled.h5`
 	font-style: normal;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif,
+		Space Grotesk;
 	font-weight: 600;
-	font-size: 36px;
+	font-size: 38px;
 	line-height: 40px;
 	letter-spacing: 0.01em;
-	color: #ffffff;
+	color: #33aac5;
 	margin-bottom: 8px;
 
+	&:hover {
+		cursor: pointer;
+	}
+
 	@media ${(props) => props.theme.breakpoints.md} {
-		font-size: 28px;
+		font-size: 32px;
 		line-height: 32px;
 	}
 	@media ${(props) => props.theme.breakpoints.sm} {
-		font-size: 24px;
+		font-size: 32px;
 		line-height: 26px;
 	}
 `;
@@ -67,10 +82,14 @@ export const BoxNum = styled.h5`
 export const BoxText = styled.p`
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 0.02em;
 	color: rgba(255, 255, 255, 0.75);
+
+	&:hover {
+		cursor: pointer;
+	}
 
 	@media ${(props) => props.theme.breakpoints.md} {
 		font-size: 16px;
@@ -78,7 +97,7 @@ export const BoxText = styled.p`
 	}
 
 	@media ${(props) => props.theme.breakpoints.sm} {
-		font-size: 10px;
+		font-size: 14px;
 		line-height: 14px;
 	}
 `;

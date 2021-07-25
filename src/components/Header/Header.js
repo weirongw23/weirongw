@@ -46,6 +46,11 @@ const Header = () => (
 					<NavLink>Technologies</NavLink>
 				</Link>
 			</li>
+			<li>
+				<Link href="#contact">
+					<NavLink>Contact</NavLink>
+				</Link>
+			</li>
 			{/* <NavProductsIcon /> */}
 			{/* <li>
 				<Link href="#writing">

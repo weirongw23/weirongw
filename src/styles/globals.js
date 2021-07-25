@@ -4,27 +4,20 @@ import { normalize } from "styled-normalize";
 const GlobalStyles = createGlobalStyle`
   ${normalize};
 
-  .fade-in {
-	opacity: 1;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 2s;
-  }
-
-  @keyframes fadeInOpacity {
-	0% {
-	  opacity: 0;
-	}
-	100% {
-	  opacity: 1;
-	}
-  }
-
   * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+  }
+
+  .disabled {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
   }
 
   html {

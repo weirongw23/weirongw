@@ -10,7 +10,7 @@ import {
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
-	{ number: 800, text: "My Channel's YouTube Watch Time (in hrs)" },
+	{ number: 415.1, text: "Miles Ran 2021 (Updates Real-Time from Garmin)" },
 	{ number: 30, text: "Projects Completed" },
 	{ number: 10, text: "Languages Learned" },
 	{ number: 150, text: "Students Taught" },
@@ -18,12 +18,17 @@ const data = [
 
 const Acomplishments = () => (
 	<Section>
-		<SectionText>By the Numbers.</SectionText>
+		{/* <SectionText>By the Numbers.</SectionText> */}
 		<Boxes>
 			{data.map((card, index) => (
 				<Box key={index}>
 					<BoxNum>
-						<CountUp end={card.number} duration={3} redraw={true} />
+						<CountUp
+							start={card.number / 5}
+							end={card.number}
+							duration={3}
+							redraw={true}
+						/>
 					</BoxNum>
 					<BoxText>{card.text}</BoxText>
 				</Box>

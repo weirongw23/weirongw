@@ -8,7 +8,7 @@ export const Section = styled.section`
 	max-width: 1040px;
 	box-sizing: content-box;
 	position: relative;
-	overflow: hidden;
+	overflow: show;
 	grid-template-columns: 1fr 1fr;
 
 	@media ${(props) => props.theme.breakpoints.md} {
@@ -17,7 +17,7 @@ export const Section = styled.section`
 	}
 
 	@media ${(props) => props.theme.breakpoints.sm} {
-		padding: ${(props) => (props.nopadding ? "0" : "16px 16px 0")};
+		padding: ${(props) => (props.nopadding ? "0" : "24px 24px 0")};
 
 		width: calc(100vw - 32px);
 		flex-direction: column;
@@ -134,6 +134,7 @@ export const SecondaryBtn = styled.button`
 	margin-bottom: 80px;
 	cursor: pointer;
 	transition: 0.4s ease;
+
 	&:focus {
 		outline: none;
 	}
