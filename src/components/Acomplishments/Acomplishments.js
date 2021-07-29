@@ -10,7 +10,7 @@ import {
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
-	{ number: 415.1, text: "Miles Ran 2021 (Updates Real-Time from Garmin)" },
+	{ number: 424, text: "Miles Ran 2021 (Updates Real-Time from Garmin)" },
 	{ number: 30, text: "Projects Completed" },
 	{ number: 10, text: "Languages Learned" },
 	{ number: 150, text: "Students Taught" },
