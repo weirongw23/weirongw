@@ -47,7 +47,7 @@ const Projects = () => (
 					languages,
 				}) => (
 					<BlogCard key={id}>
-						<Img src={image} />
+						{/* <Img src={image} /> */}
 						<TitleContent>
 							<HeaderThree title>{title}</HeaderThree>
 							<Hr />
