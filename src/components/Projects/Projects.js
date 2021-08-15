@@ -55,13 +55,6 @@ const Projects = () => (
 						<CardInfo>{description}</CardInfo>
 						<br />
 						<CardInfoLang>{languages}</CardInfoLang>
-						{/* <div>
-							<TagList>
-								{tags.map((tag, i) => (
-									<Tag key={i}>{tag}</Tag>
-								))}
-							</TagList>
-						</div> */}
 						<UtilityList>
 							<ExternalLinks href={visit}>
 								Code {">"}
