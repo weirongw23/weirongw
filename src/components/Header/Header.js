@@ -32,13 +32,13 @@ const Header = () => (
 		</Div1>
 		<Div2>
 			<li>
-				<Link href="#projects">
-					<NavLink>Projects</NavLink>
+				<Link href="#experience">
+					<NavLink>Experience</NavLink>
 				</Link>
 			</li>
 			<li>
-				<Link href="#resume">
-					<NavLink>Resume</NavLink>
+				<Link href="#projects">
+					<NavLink>Projects</NavLink>
 				</Link>
 			</li>
 			<li>
@@ -51,12 +51,6 @@ const Header = () => (
 					<NavLink>Contact</NavLink>
 				</Link>
 			</li>
-			{/* <NavProductsIcon /> */}
-			{/* <li>
-				<Link href="#writing">
-					<NavLink>Writing</NavLink>
-				</Link>
-			</li> */}
 		</Div2>
 	</Container>
 );

@@ -26,7 +26,8 @@ const Footer = () => {
 				<LinkColumn>
 					<LinkTitle>Let's Connect.</LinkTitle>
 					<LinkItem href="mailto:weirongw@umich.edu">
-						Send Me an Email &#62;
+						Say Hello {">"}
+						{">"}
 					</LinkItem>
 				</LinkColumn>
 			</LinkList>

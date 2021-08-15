@@ -58,11 +58,13 @@ const Timeline = () => {
 	// }, []);
 
 	return (
-		<Section id="resume">
+		<Section id="experience">
 			<SectionDivider />
 			<br />
-			<SectionTitle>Resume</SectionTitle>
-			<SectionText>Click here for a PDF version.</SectionText>
+			<SectionTitle>Experience</SectionTitle>
+			<SectionText>
+				Click here for a PDF version of my resume.
+			</SectionText>
 			<CarouselContainer ref={carouselRef}></CarouselContainer>
 		</Section>
 	);
