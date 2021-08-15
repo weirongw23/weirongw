@@ -1,5 +1,7 @@
-import { IoIosArrowDropdown } from "react-icons/io";
 import styled from "styled-components";
+import { FaBars } from "react-icons/fa";
+import { NavLink as Link } from "react-router-dom";
+import { IoIosArrowDropdown } from "react-icons/io";
 
 export const Container = styled.nav`
 	display: grid;
@@ -8,7 +10,6 @@ export const Container = styled.nav`
 	grid-column-gap: 2rem;
 	padding: 1rem;
 	padding-top: 2rem;
-
 	@media ${(props) => props.theme.breakpoints.sm} {
 		display: grid;
 		grid-template-columns: repeat(5, 1fr);
@@ -93,19 +94,16 @@ export const ContactDropDown = styled.button`
 	position: relative;
 	background: none;
 	font-size: 1.7rem;
-
 	line-height: 32px;
 	color: rgba(255, 255, 255, 0.75);
 	cursor: pointer;
 	transition: 0.3s ease;
-
 	&:focus {
 		outline: none;
 	}
 	&:hover {
 		color: #fff;
 	}
-
 	@media ${(props) => props.theme.breakpoints.sm} {
 		padding: 0.4rem 0;
 	}
@@ -121,11 +119,9 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 	transition: 0.3s ease;
 	opacity: ${({ isOpen }) => (isOpen ? "1" : ".75")};
 	transform: ${({ isOpen }) => (isOpen ? "scaleY(-1)" : "scaleY(1)")};
-
 	&:hover {
 		opacity: 1;
 	}
-
 	@media ${(props) => props.theme.breakpoints.sm} {
 		margin: 2px 0 0 2px;
 		width: 15px;
