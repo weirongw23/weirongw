@@ -64,10 +64,12 @@ const Projects = () => (
 						</div> */}
 						<UtilityList>
 							<ExternalLinks href={visit}>
-								Code &#62;
+								Code {">"}
+								{">"}
 							</ExternalLinks>
 							<ExternalLinks href={source}>
-								Preview &#62;
+								Preview {">"}
+								{">"}
 							</ExternalLinks>
 						</UtilityList>
 					</BlogCard>

@@ -109,12 +109,15 @@ export const ExternalLinks = styled.a`
 	color: #ffffff;
 	font-size: 1.6rem;
 	padding: 1rem 1.5rem;
-	background: #007aff;
-	border-radius: 15px;
+	border-color: #ffffff;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 1px;
 	transition: all 0.2s ease-in-out;
 	&:hover {
-		background: #2fb5fc;
-		transform: scale(1.1);
+		color: #ffffff;
+		background: #007aff;
+		/* transform: scale(1.1); */
 	}
 `;
 
